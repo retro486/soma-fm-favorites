@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "soma fm Favorites",
-  "description": "Adds ability to 'favorite' songs in the soma fm pop-up player. Favorited songs are synchronized with your account. Save your favorites list from within this extension's options panel.",
+  "short_name": "soma fm Favs",
+  "description": "Favorite songs in the soma fm pop-up player. Favorites are synched with your account and can be saved from within the options panel.",
   "version": "1.0",
   "icons": {
     "16": "assets/soma-logo16.png",
