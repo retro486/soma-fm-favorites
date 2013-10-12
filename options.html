@@ -1,0 +1,46 @@
+<html>
+<head><title>soma fm Favorites Options</title>
+<style>
+html, body {
+  font-family: 'Courier New', 'monotype';
+  background-color: #000;
+  color: #ccc;
+}
+h1 {
+  color: #f00;
+}
+#clear-all {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #999;
+  border-bottom: 1px solid #666;
+  border-left: 1px solid #666;
+  width: 150px;
+  height: 25px;
+  font-size: 10px;
+  font-family: 'Arial', 'sans-serif';
+  font-weight: bold;
+  color: #999;
+  background-color: #000;
+}
+#container {
+  width: 425px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid #999;
+  border-radius: 20px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<h1>
+  soma fm Favorites
+</h1>
+<button id="clear-all">Delete all Favorites</button>
+<br /><br />
+<textarea id="song-data" rows="40" cols="50" readonly placeholder="No songs have been favorited yet."></textarea>
+</div>
+</body>
+<script src="assets/options.js"></script>
+</html>
